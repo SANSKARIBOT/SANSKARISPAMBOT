@@ -1,7 +1,7 @@
 {
-  "name": "FIGHTBOT",
-  "description": "The Mafia Userbot made by @H1M4N5HU0P special thanks to respective HellBot owner @Kraken_The_BadASS. Join for updates related info @MAFIABOT_SUPPORT",
-  "logo": "https://telegra.ph/file/b61486075c6ef73dd0d12.jpg ",
+  "name": "SANSKARIBOT",
+  "description": "The SanskariBot made by @SHUBHAM_ROOTER. Join for updates related info @CHICKENMODS",
+  "logo": "https://telegra.ph/file/8ded72864a2a26931a8ab.jpg ",
     "keywords": [
     "telegram",
     "userbot",
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/H1M4N5HU0P/MAFIABOT/",
-  "website": "https://github.com/H1M4N5HU0P/MAFIABOT/",
+  "repository": "https://github.com/SANSKARIBOT/SANSKARISPAMBOT/",
+  "website": "https://github.com/SANSKARIBOT/SANSKARISPAMBOT/",
   "success_url": "https://t.me/MAFIABOT_SUPPORT",
   "env": {
     "ENV": {
@@ -19,7 +19,7 @@
     },
     "ALIVE_NAME": {
       "description": "Fill your Full name or Username like @H1M4N5HU0P. By default it is Mafia User",
-      "value": "@MafiaBot_Support",
+      "value": "@CHICKENMODS",
       "required": false
     },
     "SUDO_USERS": {
