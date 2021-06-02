@@ -6,10 +6,10 @@ _get_repolink () {
     regex='(https?)://github.com/.+/.+'
     if [[ $SANSKARI_REPO == "sanskaribot" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NBTlNLQVJJQk9UL1NBTlNLQVJJU1BBTVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $SANSKARI_REPO == "SANSKARI" ]]
     then
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NBTlNLQVJJQk9UL1NBTlNLQVJJU1BBTVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     elif [[ $SANSKARI_REPO =~ $regex ]]
     then
         if [[ $SANSKARI_REPO_BRANCH ]]
@@ -19,7 +19,7 @@ _get_repolink () {
             echo "${SANSKARI_REPO}/archive/master.zip"
         fi
     else
-        echo "aHR0cHM6Ly9naXRodWIuY29tL0gxTTRONUhVMFAvTUFGSUEtVVNFUkJPVC9hcmNoaXZlL21hc3Rlci56aXA=" | base64 -d
+        echo "aHR0cHM6Ly9naXRodWIuY29tL1NBTlNLQVJJQk9UL1NBTlNLQVJJU1BBTVVTRVJCT1QvYXJjaGl2ZS9tYXN0ZXIuemlw" | base64 -d
     fi
 }
 
