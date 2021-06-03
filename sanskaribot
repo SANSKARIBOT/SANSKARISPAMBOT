@@ -36,7 +36,7 @@ _set_bot () {
     echo "  Cleaning ..."
     rm -rf "$zippath"
     sleep 5
-    cd $MAFIAPATH
+    cd $SANSKARIPATH
     echo "    Starting SanskariBot    "
     echo "
                    SANSKARIBOT IS STARTING
